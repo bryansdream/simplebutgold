@@ -1,0 +1,14 @@
+export default function TechStack({ tech, style }) {
+  return (
+    <div
+      className={`col-span-6 ${style.border} md:col-span-3 border-2 space-x-2 p-4 ${style.bg} flex`}
+    >
+      <div className="text-lg space-y-2 md:flex md:space-y-0 md:items-center md:space-x-2">
+        <div className="w-6">
+          <img src={style.src} alt={tech} />
+        </div>
+        <p className={`font-bold ${style.text}`}>{tech}</p>
+      </div>
+    </div>
+  );
+}
