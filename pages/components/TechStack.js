@@ -3,9 +3,8 @@ import Image from 'next/image'
 
 const TechStack = ({tech, style}) => {
   return (
-    <div>
       <div
-      className={`col-span-6 ${style.border} md:col-span-3 border-2 space-x-2 p-4 ${style.bg} flex`}
+      className={`col-span-6 ${style.border} md:col-span-3 space-x-2 p-4 ${style.bg} flex`}
     >
       <div className="text-lg space-y-2 md:flex md:space-y-0 md:items-center md:space-x-2">
         <div className="w-6">
@@ -13,7 +12,6 @@ const TechStack = ({tech, style}) => {
         </div>
         <p className={`font-bold ${style.text}`}>{tech}</p>
       </div>
-    </div>
     </div>
   )
 }
