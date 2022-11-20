@@ -1,7 +1,5 @@
-import Link from "next/link";
 import Button from "./components/Button";
 import TechStack from "./components/TechStack";
-import TextLink from "./components/TextLink";
 
 export default function Home() {
   return (
@@ -62,7 +60,7 @@ export default function Home() {
               style={{
                 text: "text-white",
                 bg: "bg-black",
-                src: "https://www.datocms-assets.com/75941/1657707878-nextjs_logo.png",
+                src: "",
                 border: "border-white",
               }}
             />
@@ -71,7 +69,7 @@ export default function Home() {
             style ={{
               text: "text-white",
               bg: "bg-[#222222]",
-              src:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+              src:"",
               border: "border-[#171717]"
             }}
             />
@@ -80,7 +78,7 @@ export default function Home() {
               style={{
                 text: "text-white",
                 bg: "bg-[#63CACA]",
-                src: "https://media.graphassets.com/91q3gAEGSh6HCrpnPgxS",
+                src: "",
                 border: "border-[#4FD1C6]",
               }}
             />
@@ -89,7 +87,7 @@ export default function Home() {
           style= {{
             text: "text-white",
             bg: "bg-[#1D4161]",
-            src: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+            src: "",
             border: "border-blue-400"
           }}
             />
