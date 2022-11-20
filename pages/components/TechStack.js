@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function TechStack({ tech, style }) {
   return (
     <div
@@ -5,7 +7,7 @@ export default function TechStack({ tech, style }) {
     >
       <div className="text-lg space-y-2 md:flex md:space-y-0 md:items-center md:space-x-2">
         <div className="w-6">
-          <img src={style.src} alt={tech} />
+          <Image src={style.src} alt={tech} />
         </div>
         <p className={`font-bold ${style.text}`}>{tech}</p>
       </div>
