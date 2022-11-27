@@ -1,7 +1,7 @@
 import Button from "./components/Button";
 import TechStack from "./components/TechStack";
 
-export default function Home() {
+export default function Home(bg, border, src) {
   return (
     <>
       <section class="bg-black text-white h-screen flex flex-col justify-center items-center">
@@ -61,27 +61,34 @@ export default function Home() {
                 text: "text-white",
                 bg: "bg-black",
                 src: "",
+                border: "border-white",
               }}
             />
             <TechStack 
             tech= "React Js"
             style ={{
               text: "text-white",
+              bg: "bg-[#222222]",
               src:"",
+              border: "border-[#171717]"
             }}
             />
             <TechStack
               tech="Chakra UI"
               style={{
                 text: "text-white",
+                bg: "bg-[#63CACA]",
                 src: "",
+                border: "border-[#4FD1C6]",
               }}
             />
             <TechStack 
           tech= "Tailwind CSS"
           style= {{
             text: "text-white",
+            bg: "bg-[#1D4161]",
             src: "",
+            border: "border-blue-400"
           }}
             />
           </div>

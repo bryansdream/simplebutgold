@@ -4,7 +4,7 @@ import Image from 'next/image'
 const TechStack = ({tech, style}) => {
   return (
       <div
-      className={`col-span-6 md:col-span-3 space-x-2 p-4 flex`}
+      className={`col-span-6 ${style.border} md:col-span-3 space-x-2 p-4 ${style.bg} flex`}
     >
       <div className="text-lg space-y-2 md:flex md:space-y-0 md:items-center md:space-x-2">
         <div className="w-6">
