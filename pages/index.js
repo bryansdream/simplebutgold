@@ -1,7 +1,7 @@
 import Button from "./components/Button";
 import TechStack from "./components/TechStack";
 
-export default function Home(bg, border, src, border) {
+export default function Home(tech, style, props) {
   return (
     <>
       <section class="bg-black text-white h-screen flex flex-col justify-center items-center">
