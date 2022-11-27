@@ -67,7 +67,6 @@ export default function Home() {
             tech= "React Js"
             style ={{
               text: "text-white",
-              bg: "bg-[#222222]",
               src:"",
             }}
             />
@@ -75,7 +74,6 @@ export default function Home() {
               tech="Chakra UI"
               style={{
                 text: "text-white",
-                bg: "bg-[#63CACA]",
                 src: "",
               }}
             />
@@ -83,7 +81,6 @@ export default function Home() {
           tech= "Tailwind CSS"
           style= {{
             text: "text-white",
-            bg: "bg-[#1D4161]",
             src: "",
           }}
             />
