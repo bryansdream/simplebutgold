@@ -14,7 +14,7 @@ export default function Home() {
         <p class="text-white/40 mt-10 w-6/12 md:w-3/12 text-center">
           Interested in
           <span class="font-bold transition-all delay-300 text-white/60">
-            Front end
+            Front ends
           </span>
         </p>
       </section>
