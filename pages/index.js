@@ -61,7 +61,6 @@ export default function Home() {
                 text: "text-white",
                 bg: "bg-black",
                 src: "",
-                border: "border-white",
               }}
             />
             <TechStack 
@@ -70,7 +69,6 @@ export default function Home() {
               text: "text-white",
               bg: "bg-[#222222]",
               src:"",
-              border: "border-[#171717]"
             }}
             />
             <TechStack
@@ -79,7 +77,6 @@ export default function Home() {
                 text: "text-white",
                 bg: "bg-[#63CACA]",
                 src: "",
-                border: "border-[#4FD1C6]",
               }}
             />
             <TechStack 
@@ -88,7 +85,6 @@ export default function Home() {
             text: "text-white",
             bg: "bg-[#1D4161]",
             src: "",
-            border: "border-blue-400"
           }}
             />
           </div>
